@@ -1,0 +1,12 @@
+{
+  "name": "data-sync-b6d276",
+  "version": "1.0.0",
+  "description": "A data-sync utility",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["data-sync", "utility"],
+  "license": "MIT"
+}

